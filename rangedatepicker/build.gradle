@@ -66,3 +66,12 @@ apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/
 
 //apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 //apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
+repositories {
+    google()
+}
+buildscript {
+    repositories {
+        google()
+    }
+}
